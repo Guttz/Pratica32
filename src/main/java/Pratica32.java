@@ -17,4 +17,14 @@ public class Pratica32 {
         double d = ( pow(Math.E, -0.5*pow( (x-media)/desvio, 2) ) )/( Math.sqrt(2*Math.PI) * desvio);
         return d;
     }
+            
+        public static void main(String[] args) {
+        
+        double densidadeEmX;
+        
+        densidadeEmX = densidade(-1, 67, 3);
+        
+        System.out.println(densidadeEmX);
+    }
 }
+
